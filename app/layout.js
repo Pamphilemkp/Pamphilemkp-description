@@ -1,6 +1,6 @@
 // import { Inter } from 'next/font/google'
 import './globals.css';
-import Header from '@/components/Header';
+import Navbar from '@/components/Navbar';
 import Provider from "@/components/Provider";
 
 
@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="min-h-screen mx-auto max-w-6xl flex flex-col bg-white dark:bg-gray-900">
         <Provider>
-          <Header />
+          <Navbar />
           {children}
         </Provider>
       </body>
